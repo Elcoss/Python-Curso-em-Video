@@ -1,0 +1,6 @@
+n1=str(input('Digite seu nome:')).strip()
+print(n1.upper())
+print(n1.lower())
+print(len(n1)-n1.count(' '))
+n2=n1.split()
+print(f'seu primeiro nome e {n2[0]} e ele tem {len(n2[0])} letras')
